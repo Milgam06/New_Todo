@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { add_todo, delete_todos, get_todo } from "../services";
-import * as S from "../styled";
+import * as S from "./styled";
 
 export const Todos: React.FC = () => {
   const [addInput, setAddInput] = useState<string>("");
